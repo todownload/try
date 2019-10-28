@@ -31,7 +31,7 @@ Here is a img with format !\[alt\]\[url "title"\]
 
 Here is a text linker
 [百度一下](http://www.baidu.com "百度一下")
-[html]
+[index](/html/index.html "my index")
 
 
 
