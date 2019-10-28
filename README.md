@@ -28,10 +28,21 @@ Here is ~~delete word~~ use \~\~ \~\~
 
 Here is a img with format !\[alt\]\[url "title"\]  
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
+[![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")](http:/www.baidu.com "百度")    
 
-Here is a text linker
-[百度一下](http://www.baidu.com "百度一下")
-[index](/html/index.html "my index")
+Here are two text linkers  
+[百度一下](http://www.baidu.com "百度一下")  
+[index](/html/index.html "my index")  
+
+* i am a li  
+* i am mid li  
+    * i am son li  
+        * i am grandson li  
+        * me too  
+    * i am another son li  
+* i am another li  
+
+
 
 
 
