@@ -1,7 +1,9 @@
-To Learn Git use "="
+This is a simple project for me to learn about git and Version Control
 =============
-This is middle title use "-"
+*part one -- Knowledge about git*
 ---------------------
+_____________________
+
 # It'is a first title use "#"
 ## It's a second title use "##"
 ### It's a third title use  "###"
