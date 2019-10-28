@@ -21,9 +21,20 @@ no no no
 
 I am trying to light this   `word`  use \`
 
-Here is *italic* _word_ use \* \*  and \_ and \_
-Here is **bold** __word__ use \*\* \*\* and \_\_ \_\_
-Here is ***italic*** ___bold___ use \*\*\*  \*\*\*    \_\_\_  \_\_\_
+Here is *italic* _word_ use \* \*  and \_ and \_  
+Here is **bold** __word__ use \*\* \*\* and \_\_ \_\_  
+Here is ***italic*** ___bold___ use \*\*\*  \*\*\*    \_\_\_  \_\_\_  
+Here is ~~delete word~~ use \~\~ \~\~  
 
-It's a simple project for me to learn git .
+Here is a img with format !\[alt\]\[url "title"\]  
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
+
+Here is a text linker
+[百度一下](http://www.baidu.com "百度一下")
+[html]
+
+
+
+
+It's a simple project for me to learn git .  
 
