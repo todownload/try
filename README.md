@@ -34,6 +34,7 @@ Here are two text linkers
 [百度一下](http://www.baidu.com "百度一下")  
 [index](/html/index.html "my index")  
 
+Bleow is ul  
 * i am a li  
 * i am mid li  
     * i am son li  
@@ -41,6 +42,50 @@ Here are two text linkers
         * me too  
     * i am another son li  
 * i am another li  
+
+Bleow is ol  
+1. i am oli
+    1. i am son oli
+        1. i am grandson oli
+        2. i am also grandson oli
+    2. i am father of bleow
+        * - [x] i am a checkbox
+        * - [x] i am ok
+        * - [ ] am i ok?
+    3. end
+2. i am 2  
+
+Bleow is code  
+```C++
+#include<iostream>
+using namespace std;
+
+int main(){
+
+return 0;
+}
+```
+```Python
+name = input("Please input your name : ")
+if name != "":
+    print(name)
+```
+| 上句 | 下句 |
+|：------：|：------：|
+| *明月出天山* | *苍茫云海间* |
+| *月下飞天镜* | *云深结海楼* |
+| *我自横刀向天笑* | *去留肝胆两昆仑* |
+| *明月几时有* | *把酒问青天* |
+| *落霞与孤鹜齐飞* | *秋水共长天一色* |
+
+```diff
++ 我本楚狂人
++ 凤歌笑孔丘
+- 黄金白璧买歌笑
+! 一醉累月轻王侯
+# 五云天北是神州
+```
+
 
 
 
