@@ -4,8 +4,25 @@ Git and VC
 ---------------------
 _____________________
 
-## Some thing about Git
-### Something about git repository
+***
+|Author| LHK|
+| :---: | :---: |
+|Email| 12345@679.com|
+***
+
+## Directory
+* [Git](#git)
+    * [repository](#repository)
+    * [commit](#commit)
+    * [branch](#branch)
+    * [version control](#versioncontrol)
+    * [others](#others)
+* [MD grammar](#mdgrammar)
+    
+
+
+## git
+### repository
 ##### clone the project to your local directory
 ```Git
 git clone url
@@ -18,13 +35,13 @@ git pull
 ```Git
 git init
 ```
-### Something about commit the change
+### commit
 ##### ready to commit
 ```Git
 git add filename 
 git add . //add all file
 ```
-##### commit 
+##### commit the change
 ```Git
 git commit -m "msg"
 ```
@@ -32,7 +49,7 @@ git commit -m "msg"
 ```Git
 git push
 ```
-### Something about branch
+### branch
 ##### create a new branch
 ```Git
 git branch branch_name
@@ -54,7 +71,7 @@ git branch -D branch_name //delete the branch forcibly
 ```Git
 git checkout branch_name
 ```
-### Something about Version Control
+### VersionControl
 ##### revert the file which has been deleted
 ```Git
 git checkout - -
@@ -71,7 +88,7 @@ git reset -- hard verion_code
 ```Git
 git reflog
 ```
-### Other commands
+### Others
 ##### show current status
 ```Git
 git statu
@@ -88,7 +105,7 @@ git log
 ```Git
 ssh-key 
 ```
-
+## MDgrammar
 Here is a simple text without any mark oh , I can use \<br> to <br> change a anthone line.<br> I can directly input a url www.baidu.com end
 
     I am single line text? Yes use four span or two tab
