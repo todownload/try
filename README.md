@@ -5,16 +5,16 @@ Git and VC
 _____________________
 
 ## Some thing about Git
-### Some thing about git repository
-##### Clone the project to your local directory
+### Something about git repository
+##### clone the project to your local directory
 ```Git
 git clone url
 ```
-##### Pull from server and renew your local content
+##### pull from server and renew your local content
 ```Git
 git pull 
 ```
-##### To make a local directory as a repository
+##### make a local directory as a repository
 ```Git
 git init
 ```
@@ -24,8 +24,70 @@ git init
 git add filename 
 git add . //add all file
 ```
-
-
+##### commit 
+```Git
+git commit -m "msg"
+```
+##### push to server
+```Git
+git push
+```
+### Something about branch
+##### create a new branch
+```Git
+git branch branch_name
+```
+##### show all branch
+```Git
+git branch
+```
+##### merge another branch
+```Git 
+git merge branch_name
+```
+##### delete the branch
+```Git
+git branch -d branch_name //delete the branch which has been merged
+git branch -D branch_name //delete the branch forcibly
+```
+##### use another branch
+```Git
+git checkout branch_name
+```
+### Something about Version Control
+##### revert the file which has been deleted
+```Git
+git checkout - -
+```
+##### replace your file with the latest file at HEAD
+```Git
+git checkout -- filename
+```
+##### go back to previous version
+```Git
+git reset -- hard verion_code 
+```
+##### go back to future version that has been delete
+```Git
+git reflog
+```
+### Other commands
+##### show current status
+```Git
+git statu
+```
+##### show confilict
+```Git
+git diff
+```
+##### show commit log
+```Git
+git log
+```
+##### generate ssh key  use in git bash
+```Git
+ssh-key 
+```
 
 Here is a simple text without any mark oh , I can use \<br> to <br> change a anthone line.<br> I can directly input a url www.baidu.com end
 
