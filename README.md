@@ -4,6 +4,7 @@ Git and VC
 ---------------------
 _____________________
 
+## Some thing about Git
 ### Some thing about git repository
 ##### Clone the project to your local directory
 ```Git
