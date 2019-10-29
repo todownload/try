@@ -1,6 +1,6 @@
-This is a simple project for me to learn about git and Version Control
+Git and VC
 =============
-*part one -- Knowledge about git*
+*This is s simple project for me to learn something*
 ---------------------
 _____________________
 
