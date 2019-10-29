@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+    background: radial-gradient(white 50%, skyblue);
+}
+
+div[class] {
+    border-radius: 5px;
+    margin: 20px;
+    width: 450px;
+    height: 500px;
+    overflow: scroll;
+    background-color: aqua;
+    background: radial-gradient(white 50%, yellow);
+}
