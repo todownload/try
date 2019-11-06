@@ -125,7 +125,7 @@ Here is ***italic*** ___bold___ use \*\*\*  \*\*\*    \_\_\_  \_\_\_
 Here is ~~delete word~~ use \~\~ \~\~  
 
 Here is a img with format !\[alt\]\[url "title"\]  
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
+
 [![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")](http:/www.baidu.com "百度")    
 
 Here are two text linkers  
