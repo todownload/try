@@ -15,7 +15,7 @@ def main():
     while True:
         client,addr = server.accept() # 客户端 和 地址
         print(f"Current client is {addr} ")
-        fileName = client.recv().decode(encoding="utf-8") # 得到名字
+        fileName = client.recv(1024).decode(encoding="utf-8") # 得到名字
         print(f'Current file name is {fileName}')
         client.send("ACK".encode(encoding="utf-8")) # ACK
         in_data = bytes() # 开始接收文件
