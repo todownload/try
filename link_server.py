@@ -11,6 +11,7 @@ server.bind((host,port)) # 绑定端口
 
 def main():
     server.listen(512)
+    print("Start Listening ... ")
     while True:
         client,addr = server.accept() # 客户端 和 地址
         print(f"Current client is {addr} ")
